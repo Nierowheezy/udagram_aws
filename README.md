@@ -1,17 +1,22 @@
-### Project Title - Deploy a high-availability web app using CloudFormation
+### Title - Deploy a high-availability web app using CloudFormation
 
-Deploy a high-availability web app using CloudFormation" project. Your company is creating an Instagram clone called Udagram. Developers pushed the latest version of their code in a zip file located in a public S3 Bucket.
-The task is to deploy the application, along with the necessary supporting software into its matching infrastructure. This needs to be done in an automated way so that the infrastructure can be discarded as soon as the testing team finishes their tests and gathers their results.
+Deploy a high-availability web app using CloudFormation" project. Your company is creating an Instagram clone called Udagram.
 
-### Deployments
+### Deployments Commands
 
+Run the network command first before the server command
+
+```
 Network deployment: ./stack-create.sh udagram-network networks.yaml network-parameters.json
+```
 
+```
 Server deployment: ./stack-create.sh udagram-server servers.yaml server-parameters.json
+```
 
-See URL: udagr-WebAp-UB9MT5AH5NP1-1655563735.us-east-1.elb.amazonaws.com
+[See URL:](http://udagr-webap-ub9mt5ah5np1-1655563735.us-east-1.elb.amazonaws.com/)
 
-### Server specs
+### Specification
 
 You'll need to create a Launch Configuration for your application servers in order to deploy four servers, two located in each of your private subnets. The launch configuration will be used by an auto-scaling group.
 
