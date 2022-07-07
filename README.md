@@ -24,7 +24,7 @@ Network deployment: ./stack-create.sh udagram-network networks.yaml network-para
 Server deployment: ./stack-create.sh udagram-server servers.yaml server-parameters.json
 ```
 
-[Click To View Deployed WebApp](http://udagr-webap-ub9mt5ah5np1-1655563735.us-east-1.elb.amazonaws.com/)
+[Click To View Deployed WebApp](http://udagr-webap-1ffi7b66e0z4x-1259897036.us-east-1.elb.amazonaws.com/)
 
 ### Specification / Requirements
 
